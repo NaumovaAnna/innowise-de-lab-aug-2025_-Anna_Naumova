@@ -1,0 +1,9 @@
+CSV-файл	Сущность
+customers.csv	Customers
+sales.csv	Sales
+categories.csv	Categories
+cities.csv	Cities
+countries.csv	Countries
+employees.csv	Employees
+products.csv	Products
+shops.csv	Shops
