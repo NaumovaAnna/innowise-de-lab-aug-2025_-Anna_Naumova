@@ -1,0 +1,11 @@
+customers	city_id 
+
+sales	        employee_id, customer_id, product_id
+
+cities  	country_id 
+
+employees	city_id, shop_id
+
+products	category_id
+
+shops	        city_id 
