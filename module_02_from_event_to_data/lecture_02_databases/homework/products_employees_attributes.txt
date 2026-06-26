@@ -1,0 +1,29 @@
+Для сущностей products и employees хранятся ключевые атрибуты.
+
+Products (product_id, product_name, price, category_id)
+Employees (employee_id, first_name, last_name, shop_id)
+
+
+Список всех атрибутов (столбцов) products и employees.
+
+Products
+product_id
+product_name
+price
+category_id
+class
+modify_timestamp
+resistant
+is_allergic
+vitality_days
+
+Employees
+employee_id
+first_name
+middle_initial
+last_name
+birth_date
+gender
+city_id
+shop_id
+hire_date
