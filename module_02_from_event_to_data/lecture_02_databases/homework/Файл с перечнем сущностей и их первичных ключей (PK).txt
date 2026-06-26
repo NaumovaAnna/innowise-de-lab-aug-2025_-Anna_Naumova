@@ -1,0 +1,8 @@
+customers	customer_id	
+sales	        sales_id	
+categories	category_id	
+cities  	city_id	
+countries	country_id	
+employees	employee_id	
+products	product_id	
+shops	        shop_id	
