@@ -1,0 +1,2 @@
+"sales_id","employee_id","customer_id","product_id","quantity","discount","total_price","sales_timestamp","transaction_number"
+2000001,22,86594,357,2,0.0,200.0,"2026-07-12 23:10:22.508212+03",TEST-004

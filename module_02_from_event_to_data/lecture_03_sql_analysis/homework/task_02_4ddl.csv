@@ -1,0 +1,6 @@
+"constraint_name","constraint_type"
+data_layers_pkey,PRIMARY KEY
+data_layers_layername_key,UNIQUE
+unique_manager_email,UNIQUE
+"2200_16423_1_not_null",CHECK
+"2200_16423_2_not_null",CHECK

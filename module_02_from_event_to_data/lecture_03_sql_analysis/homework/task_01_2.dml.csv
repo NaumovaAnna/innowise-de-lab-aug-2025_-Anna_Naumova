@@ -1,0 +1,132 @@
+"product_id","product_name","price","category_id","class","modify_timestamp","resistant","is_allergic","vitality_days"
+3,Blueberries Family Pack,38.33,1,B,"2025-11-24 21:51:39",Yes,Yes,107
+6,White Grapes,8.5,1,A,"2025-11-24 21:51:39",Yes,Yes,84
+10,Raspberries Family Pack #10,27.7,1,A,"2025-11-24 21:51:39",Yes,Yes,90
+19,Bananas Premium #19,33.83,1,C,"2025-11-24 21:51:39",Yes,Yes,105
+21,Red Apples Classic,37.23,1,B,"2025-11-24 21:51:39",Yes,Yes,71
+22,Bananas Classic,29.54,1,A,"2025-11-24 21:51:39",Yes,Yes,178
+26,Raspberries Family Pack #26,23.95,1,A,"2025-11-24 21:51:39",Yes,Yes,68
+30,Plums Small Pack,34.69,1,A,"2025-11-24 21:51:39",Yes,Yes,113
+36,Kiwi Family Pack #36,8.41,1,A,"2025-11-24 21:51:39",Yes,Yes,90
+37,Red Apples Classic #37,23.78,1,C,"2025-11-24 21:51:39",Yes,Yes,140
+42,Red Apples Small Pack,25.23,1,C,"2025-11-24 21:51:39",Yes,Yes,147
+43,Mandarins #43,11.34,1,B,"2025-11-24 21:51:39",Yes,Yes,104
+49,Zucchini,1.38,2,A,"2025-11-24 21:51:39",Yes,Yes,104
+57,Spinach Leaves Family Pack,23.64,2,B,"2025-11-24 21:51:39",Yes,Yes,162
+59,Tomatoes Premium #14,2.73,2,B,"2025-11-24 21:51:39",Yes,Yes,103
+64,Bell Peppers Family Pack #19,20.94,2,C,"2025-11-24 21:51:39",Yes,Yes,82
+67,Tomatoes Small Pack,20.28,2,A,"2025-11-24 21:51:39",Yes,Yes,37
+73,Potatoes Family Pack,6.88,2,B,"2025-11-24 21:51:39",Yes,Yes,26
+82,Carrots Premium #37,9.74,2,A,"2025-11-24 21:51:39",Yes,Yes,73
+84,Tomatoes Small Pack #39,28.28,2,B,"2025-11-24 21:51:39",Yes,Yes,51
+86,Potatoes #41,27.93,2,C,"2025-11-24 21:51:39",Yes,Yes,87
+93,Sourdough Baguette,28.35,3,B,"2025-11-24 21:51:39",Yes,Yes,31
+98,Wholegrain Bread Family Pack,13.31,3,C,"2025-11-24 21:51:39",Yes,Yes,65
+100,Sourdough Baguette Family Pack,15.07,3,B,"2025-11-24 21:51:39",Yes,Yes,80
+103,Wholegrain Bread Premium,37.7,3,B,"2025-11-24 21:51:39",Yes,Yes,112
+104,Seeded Loaf Classic,23.5,3,C,"2025-11-24 21:51:39",Yes,Yes,48
+107,Sourdough Baguette #17,39.61,3,B,"2025-11-24 21:51:39",Yes,Yes,63
+108,Oat Rolls Family Pack,11.32,3,A,"2025-11-24 21:51:39",Yes,Yes,54
+112,Rye Bread Family Pack,36.43,3,A,"2025-11-24 21:51:39",Yes,Yes,52
+131,Cashew Spread #6,15.71,4,B,"2025-11-24 21:51:39",Yes,Yes,156
+138,Almond Milk Family Pack,25.62,4,B,"2025-11-24 21:51:39",Yes,Yes,121
+141,Cashew Spread Small Pack #16,23.07,4,A,"2025-11-24 21:51:39",Yes,Yes,30
+155,Cashew Spread Small Pack #30,33.07,4,B,"2025-11-24 21:51:39",Yes,Yes,130
+158,Almond Milk Classic #33,12.87,4,B,"2025-11-24 21:51:39",Yes,Yes,70
+163,Turkey Fillet Family Pack,38.76,5,B,"2025-11-24 21:51:39",Yes,Yes,174
+165,Chicken Thighs Family Pack,3.68,5,C,"2025-11-24 21:51:39",Yes,Yes,69
+167,Beef Mince,10.78,5,A,"2025-11-24 21:51:39",Yes,Yes,43
+169,Turkey Fillet Classic,5.94,5,B,"2025-11-24 21:51:39",Yes,Yes,131
+171,Chicken Breast,12.76,5,C,"2025-11-24 21:51:39",Yes,Yes,132
+181,Turkey Fillet Premium,5.04,5,C,"2025-11-24 21:51:39",Yes,Yes,178
+185,Beef Mince Family Pack,23.09,5,B,"2025-11-24 21:51:39",Yes,Yes,172
+191,Beef Sirloin Premium #31,2.77,5,B,"2025-11-24 21:51:39",Yes,Yes,62
+199,Turkey Fillet Premium #39,9.64,5,A,"2025-11-24 21:51:39",Yes,Yes,145
+201,Salmon Fillet Family Pack,10.98,6,A,"2025-11-24 21:51:39",Yes,Yes,55
+205,Salmon Fillet Classic,15.38,6,B,"2025-11-24 21:51:39",Yes,Yes,167
+207,Trout Family Pack,13.54,6,B,"2025-11-24 21:51:39",Yes,Yes,125
+208,Salmon Fillet Premium,39.31,6,A,"2025-11-24 21:51:39",Yes,Yes,73
+218,Shrimp Cleaned,15.69,6,A,"2025-11-24 21:51:39",Yes,Yes,122
+223,Trout Small Pack #23,35.09,6,C,"2025-11-24 21:51:39",Yes,Yes,82
+232,Tuna Fillet,21.91,6,C,"2025-11-24 21:51:39",Yes,Yes,84
+234,Trout Classic,21.42,6,B,"2025-11-24 21:51:39",Yes,Yes,109
+247,Ginger Shot Small Pack,15.17,7,C,"2025-11-24 21:51:39",Yes,Yes,46
+251,Ginger Shot Premium #16,10.73,7,A,"2025-11-24 21:51:39",Yes,Yes,137
+253,Cold Pressed Orange Juice,12.14,7,B,"2025-11-24 21:51:39",Yes,Yes,44
+256,Ginger Shot Family Pack #21,31.95,7,C,"2025-11-24 21:51:39",Yes,Yes,61
+259,Ginger Shot Small Pack #24,21.5,7,B,"2025-11-24 21:51:39",Yes,Yes,91
+264,Ginger Shot Premium #29,24.96,7,A,"2025-11-24 21:51:39",Yes,Yes,53
+268,Cold Pressed Orange Juice Small Pack,12.6,7,A,"2025-11-24 21:51:39",Yes,Yes,122
+271,Dried Mango Small Pack,5.78,8,B,"2025-11-24 21:51:39",Yes,Yes,34
+274,Trail Mix Small Pack,35.28,8,B,"2025-11-24 21:51:39",Yes,Yes,110
+281,Nut Bar,16.65,8,A,"2025-11-24 21:51:39",Yes,Yes,45
+286,Mixed Nuts,19.51,8,C,"2025-11-24 21:51:39",Yes,Yes,159
+288,Mixed Nuts #18,37.98,8,A,"2025-11-24 21:51:39",Yes,Yes,122
+290,Nut Bar Small Pack #20,35.04,8,C,"2025-11-24 21:51:39",Yes,Yes,142
+298,Sesame Crackers Premium #28,6.35,8,C,"2025-11-24 21:51:39",Yes,Yes,22
+299,Sesame Crackers,9.8,8,A,"2025-11-24 21:51:39",Yes,Yes,115
+300,Granola Bar Small Pack #30,4.92,8,A,"2025-11-24 21:51:39",Yes,Yes,114
+302,Sesame Crackers Classic,36.41,8,A,"2025-11-24 21:51:39",Yes,Yes,54
+311,Frozen Vegetable Mix Classic,11.2,9,B,"2025-11-24 21:51:39",Yes,Yes,180
+316,Frozen Spinach Classic,33.32,9,C,"2025-11-24 21:51:39",Yes,Yes,52
+320,Berry Mix Classic,30.09,9,C,"2025-11-24 21:51:39",Yes,Yes,118
+324,Frozen Broccoli,16.33,9,A,"2025-11-24 21:51:39",Yes,Yes,15
+326,Frozen Broccoli Small Pack,14.5,9,B,"2025-11-24 21:51:39",Yes,Yes,18
+327,Frozen Peas #22,30.88,9,A,"2025-11-24 21:51:39",Yes,Yes,27
+328,Frozen Spinach,2.31,9,C,"2025-11-24 21:51:39",Yes,Yes,21
+329,Frozen Peas Small Pack #24,10.14,9,A,"2025-11-24 21:51:39",Yes,Yes,138
+337,Dish Soap Small Pack,34.04,10,A,"2025-11-24 21:51:39",Yes,Yes,78
+338,Laundry Detergent,24.51,10,A,"2025-11-24 21:51:39",Yes,Yes,132
+339,Trash Bags Biodegradable Premium,12.82,10,A,"2025-11-24 21:51:39",Yes,Yes,40
+343,Bamboo Paper Towels Family Pack,15.46,10,B,"2025-11-24 21:51:39",Yes,Yes,47
+348,Dish Soap,2.32,10,A,"2025-11-24 21:51:39",Yes,Yes,115
+349,Trash Bags Biodegradable Family Pack,3.65,10,A,"2025-11-24 21:51:39",Yes,Yes,139
+355,Bamboo Paper Towels Classic #20,26.5,10,C,"2025-11-24 21:51:39",Yes,Yes,113
+356,Laundry Detergent Small Pack,22.56,10,A,"2025-11-24 21:51:39",Yes,Yes,31
+357,Laundry Detergent Small Pack #22,26.15,10,B,"2025-11-24 21:51:39",Yes,Yes,68
+359,Glass Cleaner Classic,7.99,10,B,"2025-11-24 21:51:39",Yes,Yes,160
+360,Trash Bags Biodegradable Small Pack,37.23,10,B,"2025-11-24 21:51:39",Yes,Yes,155
+361,Laundry Detergent #26,13.94,10,C,"2025-11-24 21:51:39",Yes,Yes,138
+365,Laundry Detergent Classic #30,31.11,10,B,"2025-11-24 21:51:39",Yes,Yes,31
+370,Body Lotion Mild Small Pack,16.12,11,A,"2025-11-24 21:51:39",Yes,Yes,107
+378,Body Lotion Mild Classic #13,37.35,11,A,"2025-11-24 21:51:39",Yes,Yes,128
+382,Shampoo Herbal Premium,28.36,11,C,"2025-11-24 21:51:39",Yes,Yes,73
+386,Hand Cream Classic,12.52,11,A,"2025-11-24 21:51:39",Yes,Yes,99
+389,Shampoo Herbal Classic #24,1.88,11,B,"2025-11-24 21:51:39",Yes,Yes,72
+393,Toothpaste Natural Premium #28,30.34,11,A,"2025-11-24 21:51:39",Yes,Yes,103
+399,Baby Cereal,28.04,12,C,"2025-11-24 21:51:39",Yes,Yes,135
+402,Baby Cereal Small Pack,20.06,12,A,"2025-11-24 21:51:39",Yes,Yes,84
+407,Baby Puree Apple Small Pack,34.75,12,A,"2025-11-24 21:51:39",Yes,Yes,160
+408,Baby Wet Wipes #13,25.68,12,A,"2025-11-24 21:51:39",Yes,Yes,62
+410,Baby Wet Wipes #15,11.43,12,C,"2025-11-24 21:51:39",Yes,Yes,115
+411,Baby Puree Apple Premium #16,34.81,12,A,"2025-11-24 21:51:39",Yes,Yes,47
+418,Baby Cereal Premium #23,35.87,12,A,"2025-11-24 21:51:39",Yes,Yes,170
+421,Dog Food Grain Free Premium,10.77,13,B,"2025-11-24 21:51:39",Yes,Yes,111
+422,Cat Treats Soft Family Pack,17.74,13,A,"2025-11-24 21:51:39",Yes,Yes,64
+426,Cat Treats Soft Family Pack #6,15.93,13,A,"2025-11-24 21:51:39",Yes,Yes,145
+428,Cat Food Salmon Small Pack #8,25.03,13,B,"2025-11-24 21:51:39",Yes,Yes,35
+435,Dog Food Grain Free #15,3.63,13,B,"2025-11-24 21:51:39",Yes,Yes,25
+439,Dog Food Grain Free Premium #19,28.25,13,C,"2025-11-24 21:51:39",Yes,Yes,72
+441,Cat Food Salmon Classic #21,1.49,13,A,"2025-11-24 21:51:39",Yes,Yes,137
+446,Tomato Sauce Jar Classic,35.88,14,C,"2025-11-24 21:51:39",Yes,Yes,140
+447,Beans in Water Classic,34.49,14,A,"2025-11-24 21:51:39",Yes,Yes,130
+450,Olives in Brine Premium,5.66,14,C,"2025-11-24 21:51:39",Yes,Yes,67
+454,Chickpeas in Brine Family Pack,29.57,14,C,"2025-11-24 21:51:39",Yes,Yes,11
+457,Beans in Water Family Pack,28.75,14,A,"2025-11-24 21:51:39",Yes,Yes,143
+458,Chickpeas in Brine Premium #13,18.88,14,C,"2025-11-24 21:51:39",Yes,Yes,139
+461,Chickpeas in Brine Premium #16,10.11,14,A,"2025-11-24 21:51:39",Yes,Yes,49
+464,Sweet Corn Premium,33.23,14,C,"2025-11-24 21:51:39",Yes,Yes,93
+467,Chickpeas in Brine Classic #22,32.35,14,A,"2025-11-24 21:51:39",Yes,Yes,25
+469,Olives in Brine Premium #24,36.78,14,A,"2025-11-24 21:51:39",Yes,Yes,60
+470,Chickpeas in Brine Family Pack #25,4.59,14,B,"2025-11-24 21:51:39",Yes,Yes,128
+475,Chickpeas in Brine Family Pack #30,26.06,14,C,"2025-11-24 21:51:39",Yes,Yes,107
+477,Green Tea Family Pack,2.02,15,C,"2025-11-24 21:51:39",Yes,Yes,81
+478,Arabica Coffee Beans Small Pack,21.65,15,C,"2025-11-24 21:51:39",Yes,Yes,35
+479,Ground Coffee Medium Roast Family Pack,11.39,15,C,"2025-11-24 21:51:39",Yes,Yes,157
+480,Herbal Tea Calm Premium,37.47,15,A,"2025-11-24 21:51:39",Yes,Yes,161
+490,Black Tea Classic Premium #15,36.92,15,C,"2025-11-24 21:51:39",Yes,Yes,137
+492,Arabica Coffee Beans Premium,18.42,15,B,"2025-11-24 21:51:39",Yes,Yes,27
+493,Green Tea Premium #18,31.69,15,C,"2025-11-24 21:51:39",Yes,Yes,108
+495,Black Tea Classic Small Pack,4.96,15,B,"2025-11-24 21:51:39",Yes,Yes,125
+497,Green Tea Family Pack #22,35.63,15,A,"2025-11-24 21:51:39",Yes,Yes,96
+499,Ground Coffee Medium Roast,35.7,15,A,"2025-11-24 21:51:39",Yes,Yes,94
