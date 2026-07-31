@@ -216,3 +216,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+module_3_data_ingestion/lecture_11/homework/*.csv
