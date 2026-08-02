@@ -1,4 +1,4 @@
-# 1. Primary Keys
+-- 1. Primary Keys
 
 ALTER TABLE silver.silver_countries
 ADD CONSTRAINT pk_silver_countries
@@ -33,7 +33,7 @@ ADD CONSTRAINT pk_silver_sales
 PRIMARY KEY (sales_id);
 
 
-# 2. Foreign Keys для справочников
+-- 2. Foreign Keys для справочников
 
 ALTER TABLE silver.silver_cities
 ADD CONSTRAINT fk_silver_cities_country
@@ -66,7 +66,7 @@ FOREIGN KEY (shop_id)
 REFERENCES silver.silver_shops(shop_id);
 
 
-# 3. Foreign Keys для таблицы продаж
+-- 3. Foreign Keys для таблицы продаж
 
 ALTER TABLE silver.silver_sales
 ADD CONSTRAINT fk_silver_sales_employee
@@ -94,7 +94,7 @@ FOREIGN KEY (city_id)
 REFERENCES silver.silver_cities(city_id);
 
 
-# 4. Business CHECK constraint
+-- 4. Business CHECK constraint
 
 ALTER TABLE silver.silver_employees
 ADD CONSTRAINT chk_silver_employees_hire_after_birth

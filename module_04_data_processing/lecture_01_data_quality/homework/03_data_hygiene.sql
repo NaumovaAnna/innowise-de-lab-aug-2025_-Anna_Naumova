@@ -1,4 +1,4 @@
-# 1. Удаляем записи с NULL в основных ключах
+-- 1. Удаляем записи с NULL в основных ключах
 
 DELETE FROM silver.silver_countries
 WHERE country_id IS NULL;
@@ -28,8 +28,8 @@ WHERE sales_id IS NULL
    OR product_id IS NULL;
 
 
-# 2. Удаляем дубликаты по ID
-# Оставляем только одну строку для каждого ID
+-- 2. Удаляем дубликаты по ID
+-- Оставляем только одну строку для каждого ID
 
 DELETE FROM silver.silver_countries
 WHERE ctid IN (
@@ -152,7 +152,7 @@ WHERE ctid IN (
 );
 
 
-# 3. Удаляем сиротские записи в справочниках
+-- 3. Удаляем сиротские записи в справочниках
 
 DELETE FROM silver.silver_cities c
 WHERE NOT EXISTS (
@@ -195,8 +195,8 @@ OR NOT EXISTS (
 );
 
 
-# 4. Удаляем сиротские продажи
-# Продажа должна ссылаться на существующего employee, customer и product
+-- 4. Удаляем сиротские продажи
+-- Продажа должна ссылаться на существующего employee, customer и product
 
 DELETE FROM silver.silver_sales s
 WHERE NOT EXISTS (
@@ -216,7 +216,7 @@ OR NOT EXISTS (
 );
 
 
-# 5. Удаляем сотрудников, которые не совершали продаж
+-- 5. Удаляем сотрудников, которые не совершали продаж
 
 DELETE FROM silver.silver_employees e
 WHERE NOT EXISTS (
@@ -226,7 +226,7 @@ WHERE NOT EXISTS (
 );
 
 
-# 6. После удаления сотрудников снова удаляем продажи без существующего employee_id
+-- 6. После удаления сотрудников снова удаляем продажи без существующего employee_id
 
 DELETE FROM silver.silver_sales s
 WHERE NOT EXISTS (
@@ -236,8 +236,8 @@ WHERE NOT EXISTS (
 );
 
 
-# 7. Обогащаем sales полями shop_id и city_id
-# Берем shop_id и city_id из таблицы employees
+-- 7. Обогащаем sales полями shop_id и city_id
+-- Берем shop_id и city_id из таблицы employees
 
 UPDATE silver.silver_sales s
 SET
@@ -247,7 +247,7 @@ FROM silver.silver_employees e
 WHERE s.employee_id = e.employee_id;
 
 
-# 8. Удаляем продажи, где enrichment не сработал
+-- 8. Удаляем продажи, где enrichment не сработал
 
 DELETE FROM silver.silver_sales
 WHERE shop_id IS NULL
