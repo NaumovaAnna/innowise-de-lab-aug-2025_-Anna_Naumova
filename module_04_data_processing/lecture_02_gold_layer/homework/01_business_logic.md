@@ -240,9 +240,11 @@ Views:
 
 ## 7. ER Diagram
 
-Ниже представлена ER-диаграмма Gold Layer.
+Ниже представлена ER-диаграмма построенной аналитической модели данных.
 
-Модель построена по принципу Star Schema: в центре находится таблица фактов `fact_sales`, а вокруг неё расположены таблицы измерений.
+Gold Layer построен по принципу Star Schema: в центре находится таблица фактов `fact_sales`, а вокруг неё расположены таблицы измерений.
+
+Также на основе Gold Layer создан Mart Layer — набор витрин для BI-аналитики.
 
 ```mermaid
 erDiagram
@@ -257,9 +259,21 @@ erDiagram
     DIM_LOCATION ||--o{ DIM_SHOP : location_key
     DIM_LOCATION ||--o{ DIM_CUSTOMER : location_key
     DIM_LOCATION ||--o{ DIM_EMPLOYEE : location_key
+
+    FACT_SALES ||--o{ MART_DAILY_ANOMALY : source_data
+    FACT_SALES ||--o{ MART_SHOP_DAILY : source_data
+    FACT_SALES ||--o{ MART_CUSTOMER_BEHAVIOR : source_data
+    FACT_SALES ||--o{ MART_EMPLOYEE_PERFORMANCE : source_data
+    FACT_SALES ||--o{ MART_PRODUCT_SEASONALITY : source_data
+
+    DIM_LOCATION ||--o{ MART_DAILY_ANOMALY : location_key
+    DIM_LOCATION ||--o{ MART_SHOP_DAILY : location_key
+    DIM_LOCATION ||--o{ MART_CUSTOMER_BEHAVIOR : location_key
+    DIM_LOCATION ||--o{ MART_EMPLOYEE_PERFORMANCE : location_key
+    DIM_LOCATION ||--o{ MART_PRODUCT_SEASONALITY : location_key
 ```
 
-Описание связей:
+Описание связей Gold Layer:
 
 ```text
 одна дата → много продаж
@@ -277,3 +291,13 @@ erDiagram
 одна локация → много магазинов
 одна локация → много клиентов
 одна локация → много сотрудников
+```
+
+Описание связей Mart Layer:
+
+```text
+fact_sales → источник данных для всех mart-витрин
+dim_location → справочник для фильтрации mart-витрин по стране и городу
+```
+
+Витрины `mart_daily_anomaly`, `mart_shop_daily`, `mart_customer_behavior`, `mart_employee_performance` и `mart_product_seasonality` построены на основе данных Gold Layer и предназначены для использования в BI dashboard.
